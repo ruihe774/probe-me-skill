@@ -1,0 +1,22 @@
+{
+  "author": {
+    "email": "ruihe774@outlook.com",
+    "name": "Rui He"
+  },
+  "description": "Before answering a question about your own feelings, opinions or position, Claude interviews you in short rounds of multiple-choice questions, using survey and qualitative-interview techniques, so the answer fits you rather than the generic case.",
+  "displayName": "Probe me",
+  "homepage": "https://github.com/ruihe774/probe-me-skill",
+  "keywords": [
+    "interview",
+    "survey",
+    "opinions",
+    "attitudes",
+    "reflection",
+    "clarifying-questions",
+    "skill"
+  ],
+  "license": "Unlicense",
+  "name": "probe-me",
+  "repository": "https://github.com/ruihe774/probe-me-skill",
+  "version": "0.1.0"
+}

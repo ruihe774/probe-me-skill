@@ -1,0 +1,12 @@
+{
+  "name": "probe-me",
+  "description": "A skill that interviews you before answering questions about your own views",
+  "owner": { "name": "Rui He", "email": "ruihe774@outlook.com" },
+  "plugins": [
+    {
+      "name": "probe-me",
+      "source": "./",
+      "description": "Probe me: when you share a feeling, opinion or position, Claude first asks a few short multiple-choice rounds to understand what you actually think, then answers your real question."
+    }
+  ]
+}
