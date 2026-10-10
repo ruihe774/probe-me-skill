@@ -3,7 +3,7 @@
     "email": "ruihe774@outlook.com",
     "name": "Rui He"
   },
-  "description": "Before answering a question about your own feelings, opinions or position, Claude interviews you in short rounds of multiple-choice questions, using survey and qualitative-interview techniques, so the answer fits you rather than the generic case.",
+  "description": "Before answering a question about your own feelings, opinions or position, an AI agent such as Claude interviews you in short rounds of multiple-choice questions, using survey and qualitative-interview techniques, so the answer fits you rather than the generic case.",
   "displayName": "Probe me",
   "homepage": "https://github.com/ruihe774/probe-me-skill",
   "keywords": [

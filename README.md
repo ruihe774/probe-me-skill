@@ -1,12 +1,12 @@
 # Probe me
 
-A skill that makes Claude ask before it answers. When you share a feeling, opinion or position ("Why am I not worried about AI when everyone else is?", "Smoking disgusts me", "I think agents should use accessibility APIs, not screenshots"), Claude runs a short interview of multiple-choice rounds to learn what your view is actually about, then answers the question you really have instead of the generic version.
+A skill that makes AI agents such as Claude ask before they answer. When you share a feeling, opinion or position ("Why am I not worried about AI when everyone else is?", "Smoking disgusts me", "I think agents should use accessibility APIs, not screenshots"), the agent runs a short interview of multiple-choice rounds to learn what your view is actually about, then answers the question you really have instead of the generic version.
 
 This is a reflection and clarification aid. It is not therapy, counseling, a coach or a source of emotional support, and it does not provide that kind of interaction.
 
 ## What it does
 
-- Asks short rounds (1–3 questions each) through Claude's `AskUserQuestion` prompt, funnel-ordered from broad and descriptive to specific and sensitive.
+- Asks short rounds (1–3 questions each) through the agent's `AskUserQuestion` prompt, funnel-ordered from broad and descriptive to specific and sensitive.
 - Uses techniques from survey methodology and qualitative interviewing: neutral wording, balanced scales, laddering ("why does that matter?"), vignettes for boundaries, and member checking (a summary for you to confirm or correct before any critique).
 - Widens the frame before drafting questions, so options cover your own experience, other people affected, the wider system and principle, not only the default vantage point.
 - Skips the questionnaire when you ask for a quick answer, when the question is factual or a writing task, when your message already has enough detail, or when you seem to be in distress or crisis.
@@ -15,12 +15,12 @@ This is a reflection and clarification aid. It is not therapy, counseling, a coa
 
 ## Requirements
 
-- Claude Code (or another Claude surface) with plugin support and the `AskUserQuestion` tool.
+- An AI agent such as Claude Code, with plugin support and the `AskUserQuestion` tool.
 - Nothing else: no scripts, packages or network access.
 
 ## Data disclosure
 
-This plugin sends no data. It consists only of instructions (Markdown) and an icon; it has no scripts, no network requests, no web search or fetch calls and no connectors. Your answers to the interview questions stay within your conversation with Claude, handled under the terms of the Claude product you use. The plugin author does not receive, collect or store anything.
+This plugin sends no data. It consists only of instructions (Markdown) and an icon; it has no scripts, no network requests, no web search or fetch calls and no connectors. Your answers to the interview questions stay within your conversation with the AI agent, handled under the terms of the product you use. The plugin author does not receive, collect or store anything.
 
 ## Intended audience
 
